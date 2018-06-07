@@ -24,7 +24,7 @@ SECRET_KEY = '(k#r1=fxip4p5+u52s@oyyj%u=u-kzuq#d056px*@8)('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['xpredict.herokuapp.com','www.1xpredict.com']
+ALLOWED_HOSTS = ['overtimebet.herokuapp.com']
 
 
 # Application definition
@@ -142,7 +142,7 @@ if 'DATABASE_URL' in os.environ:
     import dj_database_url
     DATABASES = {'default': dj_database_url.config()}
 
-admin.site.site_header = '1XPredict  Admin Panel'
-admin.site.site_title = '1XPredict Admin Panel'
+admin.site.site_header = 'OvertimeBet  Admin Panel'
+admin.site.site_title = 'OvertimeBet Admin Panel'
 
 ADMINS = (('Denis Kiprono', 'deniskiprono4@gmail.com'),)
